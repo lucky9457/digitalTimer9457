@@ -1,0 +1,137 @@
+* {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.digital {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.horizontal_sec_container {
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+@media (width<=576px) {
+  .horizontal_sec_container {
+    flex-direction: column;
+  }
+}
+.backgroundimageTimer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+@media (width<=576px) {
+  .backgroundimageTimer {
+    width: 300px;
+    height: 300px;
+  }
+}
+.timeWhiteBac {
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.pause-resume {
+  padding: 0px;
+}
+.time {
+  padding: 0px;
+}
+.sec_horizontal_cont {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.play-btn-cont {
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+  font-family: Roboto;
+}
+.start-reset-cont {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+@media (width<=576px) {
+  .start-reset-cont {
+    width: 70vw;
+  }
+}
+.playbtn {
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.start {
+  color: #0f172a;
+  font-family: Roboto;
+  background: none;
+  border: none;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.resetbtn {
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.setlimit {
+  color: #0f172a;
+}
+.btns-cont {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn {
+  background: none;
+  border: none;
+  padding-top: 10px;
+}
+.timer-count {
+  background-image: linear-gradient(to right, #00d9f5, green);
+  width: 70px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 5px;
+}
+.btn {
+  font-size: 25px;
+  padding-top: 0px;
+}
+.play-pause-button {
+  background: none;
+  border: none;
+}
+.time {
+  color: #00d9f5;
+}
